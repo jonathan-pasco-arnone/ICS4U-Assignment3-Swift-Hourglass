@@ -11,6 +11,7 @@ enum MyError: Error {
     case invalidInteger(String)
 }
 
+// Makes and prints the hourglass
 func hourglass(sand: Int, centre: Int) throws {
     var hourglassStr = ""
     for _ in 0..<centre {
